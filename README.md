@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎌  tetukuri-srt-ja-zh-AItoolforlivesub
+#  tetukuri-srt-ja-zh-AItoolforlivesub
 
 **直播字幕手搓轴-AI翻校工具**
 
