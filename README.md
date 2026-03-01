@@ -97,7 +97,7 @@ tetukuri-srt-ja-zh-AItoolforlivesub/
 在 `src/pipeline.py` 顶部修改：
 
 ```python
-WHISPER_MODEL_SIZE   = "large-v3"   # 模型大小：tiny / base / small / medium / large-v3
+WHISPER_MODEL_SIZE   = "large-v3"    # 模型大小 large-v3
 LANGUAGE             = "ja"          # 源语言
 MAX_WORKERS          = 4             # 翻译并发线程数
 MAX_CHARS_PER_CHUNK  = 3000          # 单次翻译最大字符数
@@ -107,8 +107,8 @@ PROOFREAD_BATCH_SIZE = 100           # 单批校对字幕条数
 在 Colab Cell 3 中修改 API 配置：
 
 ```python
-OPENAI_BASE_URL = "https://api.openai.com/v1"   # 官方 API
-MODEL_NAME      = "gpt-4o"                       # 推荐模型
+OPENAI_BASE_URL = "https://api.openai.com/v1"    # 官方 API
+MODEL_NAME      = "gpt-5.2"                       # 推荐模型
 ```
 
 ---
