@@ -76,7 +76,7 @@ tetukuri-srt-ja-zh-AItoolforlivesub/
 | 文件 | 必须 | 说明 |
 |------|------|------|
 | 音频文件 | ✅ | `.mp3 / .wav / .m4a / .flac`，直播录音或 YouTube 下载 |
-| 参考 SRT | ✅ | 时间轴来源（可用 YouTube 自动字幕导出，内容准确性不重要，时间轴对即可）|
+| 参考 SRT | ✅ | 时间轴来源（你手打的轴**注意，要输出可识别的轴，轴不能为空，空内容可以全选填入一个数字，保证时间轴存在**）|
 | 弹幕 JSON | ⬜ 可选 | YouTube 弹幕，用于校对 ASR 错误，格式为 `replayChatItemAction` |
 
 ### 输出
